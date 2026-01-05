@@ -1,4 +1,4 @@
-# � TrafficMonitorApp - Hệ Thống Giám Sát Giao Thông Thông Minh
+# TrafficMonitorApp - Hệ Thống Giám Sát Giao Thông Thông Minh
 
 [![.NET](https://img.shields.io/badge/.NET-6.0-blue.svg)](https://dotnet.microsoft.com/)
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.8.1-green.svg)](https://opencv.org/)
