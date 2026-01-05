@@ -3,9 +3,10 @@
 [![.NET](https://img.shields.io/badge/.NET-6.0-blue.svg)](https://dotnet.microsoft.com/)
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.8.1-green.svg)](https://opencv.org/)
 [![YOLO](https://img.shields.io/badge/YOLO-v8-red.svg)](https://github.com/ultralytics/ultralytics)
+[![EF Core](https://img.shields.io/badge/EF%20Core-6.0.36-purple.svg)](https://docs.microsoft.com/en-us/ef/core/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-> **Ứng dụng giám sát và phân tích giao thông thời gian thực sử dụng AI/Machine Learning với YOLO v8 và OpenCV**
+> **Ứng dụng giám sát và phân tích giao thông thời gian thực sử dụng AI/Machine Learning với YOLO v8, OpenCV và Entity Framework Core**
 
 ---
 
