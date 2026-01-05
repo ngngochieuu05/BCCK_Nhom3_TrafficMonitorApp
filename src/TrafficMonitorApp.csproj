@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Entity Framework Core for .NET 6 -->
+    <PackageReference Include="LiveCharts.WinForms" Version="0.9.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.36" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.36" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.36">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    
+    <!-- OpenCV for .NET -->
+    <PackageReference Include="OpenCvSharp4" Version="4.8.1.20231219" />
+    <PackageReference Include="OpenCvSharp4.Extensions" Version="4.8.1.20231219" />
+    <PackageReference Include="OpenCvSharp4.runtime.win" Version="4.8.1.20231219" />
+    
+    <!-- YOLO Detection -->
+    <PackageReference Include="Microsoft.ML" Version="3.0.1" />
+    <PackageReference Include="Microsoft.ML.OnnxRuntime" Version="1.23.2" />
+    <PackageReference Include="Microsoft.ML.OnnxRuntime.Managed" Version="1.23.2" />
+    
+    <!-- JSON -->
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    
+    <!-- Microsoft.VisualBasic for InputBox -->
+    <PackageReference Include="Microsoft.VisualBasic" Version="10.3.0" />
+    
+    <!-- Excel Export -->
+    <PackageReference Include="EPPlus" Version="7.0.5" />
+  </ItemGroup>
+
+
+
+</Project>

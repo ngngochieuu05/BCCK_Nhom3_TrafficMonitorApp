@@ -1,0 +1,160 @@
+# Build results
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio cache/options
+.vs/
+.vscode/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+
+# Test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# StyleCop
+StyleCopReport.xml
+
+# Files built by Visual Studio
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin
+$RECYCLE.BIN/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# YOLOv8 training
+runs/
+weights/
+*.pt
+!yolov8n.pt
+
+# ================================
+# SENSITIVE FILES - DO NOT COMMIT
+# ================================
+**/appsettings.json
+**/database_config.json
+**/users.json
+**/traffic_config.json
+**/traffic_history.json
+
+# Keep example files
+!**/appsettings.example.json
+
+# ================================
+# LARGE FILES - AI MODELS (>100MB)
+# ================================
+file_trained/*.pt
+file_trained/onnx/*.onnx
+mohinherd/**
+
+# ================================
+# LARGE FILES - TEST VIDEOS
+# ================================
+test/video/*.mp4
+test/video/*.avi
+test/video/*.mkv
+test/video/*.mov
+
+# ================================
+# LOGS & REPORTS
+# ================================
+logs/*.txt
+logs/*.json
+logs/*.xlsx
+logs/*.pdf
+logs/diagram/*
+logs/original/*
+
+# ================================
+# Datasets
+# ================================
+train/
+valid/
+dataset/

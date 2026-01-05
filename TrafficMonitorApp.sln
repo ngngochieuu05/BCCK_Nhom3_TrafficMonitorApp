@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiInspect", "ApiInspect\ApiInspect.csproj", "{FC312ADA-9BBD-9E3E-A326-00B51DB98426}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrafficMonitorApp", "src\TrafficMonitorApp.csproj", "{B81D2ECD-A912-1AEC-F91B-2E6DB9B2AF66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC312ADA-9BBD-9E3E-A326-00B51DB98426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC312ADA-9BBD-9E3E-A326-00B51DB98426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC312ADA-9BBD-9E3E-A326-00B51DB98426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC312ADA-9BBD-9E3E-A326-00B51DB98426}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B81D2ECD-A912-1AEC-F91B-2E6DB9B2AF66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B81D2ECD-A912-1AEC-F91B-2E6DB9B2AF66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B81D2ECD-A912-1AEC-F91B-2E6DB9B2AF66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B81D2ECD-A912-1AEC-F91B-2E6DB9B2AF66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E933AAB-A399-4468-A30C-9D6C76A5A2F5}
+	EndGlobalSection
+EndGlobal
