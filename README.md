@@ -63,11 +63,6 @@
 - Lưu lượng cao (>50 xe/phút)
 - Không phát hiện xe trong thời gian dài
 
-### 🤖 Chatbot AI
-- Trả lời câu hỏi về thống kê giao thông
-- Hướng dẫn sử dụng ứng dụng
-- Gợi ý tối ưu cấu hình
-
 ### 📈 Báo Cáo & Xuất Dữ Liệu
 - **Excel Export**: Báo cáo chi tiết với EPPlus
 - **PDF Export**: Văn bản với biểu đồ nhúng
